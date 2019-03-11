@@ -3,6 +3,7 @@ body
 	margin: 0;
 	padding: 0;
   font-family: Montserrat Medium;
+  @import url('https://fonts.googleapis.com/css?family=Montserrat:500');
 
 }
 header {
@@ -99,7 +100,7 @@ h1
   display: block;
   float: left;
   
-  margin-left: 10%;
+  margin-left: 5%;
   padding-top: 5px;
   text-decoration: none;
 }
@@ -109,6 +110,7 @@ h1
 .header .menu {
   clear: both;
   max-height: 0;
+  margin-right: 5%;
   transition: max-height .2s ease-out;
 }
 
@@ -161,7 +163,8 @@ h1
 }
 
 .header .menu-btn:checked ~ .menu {
-  max-height: 240px;
+  max-height: 300px;
+  text-align: center;
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon {
@@ -183,12 +186,15 @@ h1
 
 /* 48em = 768px */
 
-@media (min-width: 970px) {
+@media (min-width: 940px) {
   .header li {
     float: left;
+     
   }
   .header li a {
-    padding: 20px 30px;
+
+    padding: 20px 20px;
+
   }
   .header .menu {
     clear: none;
@@ -198,6 +204,7 @@ h1
   .header .menu-icon {
     display: none;
   }
+
 }
 
 

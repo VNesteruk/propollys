@@ -9,26 +9,24 @@
 <script type="text/javascript">
 		$(document).ready(function(){
     $('#nav-menu').click(function(){
-        $('ul.nav-list').addClass('nav-open').slideToggle('300');
+        $('ul.nav-list').addClass('nav-open').slideToggle();
     });
 });
+
 	</script>
-</head>
-<body>
-	<header>
-		<nav class="nav-bar">
-    <div class="nav-container"> 
-        <a href="#" class="nav-logo"><img src="img/logo.png" alt=""></a>
-        <a id="nav-menu" class="nav-menu ">&#9776; </a>
-    <ul class="nav-list " id="nav">
-    <li><a href="#">Home</a></li>
-				<li><a href="#">Why i get cold</a></li>
+</head> 
+<div class="header">
+ <a href="" class="logo"><img src="img/logo.png" alt=""></a>
+  <input class="menu-btn" type="checkbox" id="menu-btn" />
+  <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+  <ul class="menu">
+  	<li><a href="#">Home</a></li>
+    <li><a href="#">Why i get cold</a></li>
 				<li><a href="#">What can i do</a></li>
 				<li><a href="#">Product</a></li>
 				<li><a href="#">About us</a></li>
-    </ul>
-    </div>
-</nav>
+  </ul>
+  </div>
 	<!--<div class = "container">
 	
 			<img src="img/logo.png"  alt="logo">
@@ -75,7 +73,7 @@
 		 <span>~</span>
 		 <p>For extra protection against nasty infections in crowded places, use Propolly's certified</p>
 		 <h1>Nasal Treatment Ointment №3</h1>
-		<p>carefully prepared by hand from propolis, a substance with wondrous immunity- enhancing properties, kindly supplied by the diligent bees. </p>
+		<p>Carefully prepared by hand from propolis, a substance with wondrous immunity- enhancing properties, kindly supplied by the diligent bees. </p>
 		<p>While we're filling the last jars for the first batch, here's a way to stay in touch and get a special price when we launch:</p>
 		<form>
 		  <input type="email" value="" placeholder="Your email please" required />

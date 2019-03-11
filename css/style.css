@@ -1,0 +1,376 @@
+body
+{
+	margin: 0;
+	padding: 0;
+  font-family: Montserrat Medium;
+
+}
+header {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-bottom: 1px solid red;
+   float:left;
+
+  
+}
+h1
+{
+  color: white;
+}
+.colortext
+{
+  color: #faa71a;
+}
+.container
+{
+ 
+	width: 80%;
+	margin: 0 auto;
+  overflow: hidden;
+	
+}
+.flex
+{
+  display: flex;
+  justify-content: space-between;
+}
+.flexLeft {
+  max-width: 500px;
+}
+.flexLeft h1
+{
+  margin-bottom: 10px;
+}
+
+
+
+/*nav
+{
+  opacity: 1;
+}
+.menu
+{
+  
+  padding:0;
+  margin: 0;
+  display: block;
+  padding-top: 18px;
+
+}*/
+
+a {
+    text-decoration: none;
+}
+
+.nav-container,.container {
+    width: 95%;
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+
+.nav-bar {
+    width: 100%;
+   
+}
+
+.nav-container {
+    overflow: hidden;
+}
+
+.nav-logo {
+    float: left;
+    display: block;
+    margin-top: 10px;
+    color: #757575;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+
+.nav-list {
+    float: right;
+  list-style:none;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.nav-list li {
+    float: left;
+}
+
+.nav-list li a {
+    display: block;
+    color: black;
+    padding: 20px 10px;
+    text-transform: uppercase;
+  font-size: 14px;
+
+}
+
+.nav-list li a:hover {
+    color:#ff6600;
+}
+
+.nav-menu{
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+.nav-menu{
+    color: black;
+    float: right;
+    display: block;
+    padding: 20px 10px;
+    cursor: pointer;
+}
+
+.nav-list{
+float: left; 
+width: 100%;
+overflow: hidden;
+height: 0;
+
+}
+
+.nav-open{ height: auto; }
+
+.nav-list li {
+    width: 100%;
+}
+  
+}
+ 
+
+
+/*
+.menu li
+{
+
+  float:left;
+  display: block;
+  margin-right: 25px;
+ 
+  
+}
+.menu li a 
+{
+
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+
+}
+.menu li a:hover
+{
+  color:#ff6600;
+} */
+.flight
+{
+
+  min-height: 650px;
+  background: url(../img/back.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0,0,0,0.4);
+  background-blend-mode: darken;
+  
+}
+.noimg
+{
+  width: 20px;
+  height: 20px;
+
+}
+.button
+{
+  display: block;
+  width: 143px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  margin: 0;
+  background-color:#faa71a;
+  transition: 0.2s ease-out;    
+}
+.button:hover
+{
+  background-color:white;
+  color: #faa71a;
+}
+.button:first-child {
+  margin-right: 40px;
+}
+.flight p 
+{
+
+  color: white;
+  font-size: 14px;
+  padding-bottom: 10px;
+
+}
+.flight h1
+{
+  padding-top: 200px;
+  font-size: 30px;
+  position: relative;
+}
+.flight .flex {
+  justify-content: flex-start;
+}
+.flightText
+{
+  padding-left: 10px;
+  padding-right: 10px;
+
+  min-height: 600px;
+}
+.flightText div
+{
+  overflow: hidden;
+}
+.flightText img
+{
+  float: right;
+  
+}
+.flightText span
+{
+  margin-top: 5px;
+  font-size: 50px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+
+}
+hr
+{
+   margin-top: 5px;
+  font-size: 50px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+.flightText h1
+{
+ color: #faa71a;
+ text-align: center;
+ text-decoration: underline;
+ padding-bottom: 15px;
+  padding-top: 15px;
+}
+input[type="email"] {
+  border: 4px solid #ddd;
+  padding: 10px 20px;
+   margin: 0;
+}
+
+input[type="email"]:focus {
+  border: 4px solid #ddd;
+}
+
+input[type="submit"] {
+  font-weight: bold;
+  padding: 10px 18px;
+  border:4px solid #faa71a;
+  border-bottom: 4px solid #c98717;
+  background: #faa71a;
+  color:#fff;
+  margin-left: -10px ;
+}
+
+form {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.p {
+  padding-top: 30px;
+}
+.arrow img
+{
+  float: left;
+  margin-left: 35%;
+  padding-right: 15px;
+ 
+}
+.arrow p
+{
+  padding-top: 15px;
+  color: #faa71a;
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1360px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+  
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+  .button
+{
+  display: block;
+  width: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 10px;
+  color: white;
+  margin: 0;
+  background-color:#faa71a;
+  transition: 0.2s ease-out;    
+}
+ .flexLeft p
+ {
+  font-size: 10px;
+ }
+ input[type="email"] {
+  border: 4px solid #ddd;
+  padding: 10px 7px;
+  margin: 0;
+}
+
+  input[type="submit"] 
+  {
+  font-weight: bold;
+  padding: 10px 8px;
+  border:4px solid #faa71a;
+  border-bottom: 4px solid #c98717;
+  background: #faa71a;
+  color:#fff;
+  margin-left: -20px ;
+}
+.arrow img
+{
+
+  float: left;
+  margin-left: 10%;
+  padding-right: 15px;
+ 
+}
+.arrow p
+{
+
+  color: #faa71a;
+}
+}
